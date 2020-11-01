@@ -1,0 +1,52 @@
+{
+  "name": "pastebin-frontend",
+  "version": "1.0.0",
+  "description": "A simple pastebin app for getting started with Azure Cosmos DB + Azure Functions",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "latest",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "clsx": "latest",
+    "core-js": "latest",
+    "cross-fetch": "latest",
+    "moment": "latest",
+    "prop-types": "latest",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "latest",
+    "react-router-dom": "latest",
+    "react-scripts": "^3.4.3",
+    "redux": "^4.0.0",
+    "redux-thunk": "latest"
+  },
+  "devDependencies": {
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/redux-logger": "^3.0.8",
+    "redux-logger": "^3.0.6",
+    "typescript": "^3.3.3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
